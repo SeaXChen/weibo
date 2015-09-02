@@ -8,7 +8,7 @@ import weibo4j.org.json.JSONObject;
 public class GetUid {
 
 	public static void main(String[] args) {
-		String access_token = args[0];
+		String access_token = "2.00tgDh2CQXA_DEfb234e42890F3IRv";
 		Account am = new Account(access_token);
 		try {
 			JSONObject uid = am.getUid();
